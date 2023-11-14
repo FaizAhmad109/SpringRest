@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "TestApp",
+            "request": "launch",
+            "mainClass": "com.digit.main.TestApp",
+            "projectName": "PojoToJsonApp"
+        },
+        {
+            "type": "java",
+            "name": "Application",
+            "request": "launch",
+            "mainClass": "com.digit.Application",
+            "projectName": "digit-01-SpringRest-SimplePOC"
+        },
+        {
+            "type": "java",
+            "name": "Application(1)",
+            "request": "launch",
+            "mainClass": "com.digit.Application",
+            "projectName": "digit-02-SpringRest-DifferentMethodsPOC"
+        },
+        {
+            "type": "java",
+            "name": "Application(2)",
+            "request": "launch",
+            "mainClass": "com.digit.Application",
+            "projectName": "digit-03-SpringRest-QueryStringApp"
+        },
+        {
+            "type": "java",
+            "name": "TestApp(1)",
+            "request": "launch",
+            "mainClass": "com.digit.main.TestApp",
+            "projectName": "digit-JsonToPojoApp"
+        }
+    ]
+}
